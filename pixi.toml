@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Joshua Siraj <joshua.siraj@ryerson.ca>"]
+channels = ["conda-forge"]
+name = "agentic-research-contextualizer"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.3,<3.15"
+
+[pypi-dependencies]
+google-adk = { version = ">=1.25.1, <2", extras = ["extensions"] }
