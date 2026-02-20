@@ -26,3 +26,4 @@ TestResults.xml# pixi environments
 .env
 __pycache__/
 session.db
+data/

@@ -1,8 +1,8 @@
 [workspace]
-authors = ["Joshua Siraj <joshua.siraj@ryerson.ca>"]
+authors = ["Caryn Geady <caryn@geady.ca>", "Joshua Siraj <joshua.siraj@ryerson.ca>"]
 channels = ["conda-forge"]
 name = "agentic-research-contextualizer"
-platforms = ["linux-64"]
+platforms = ["linux-64","win-64"]
 version = "0.1.0"
 
 [tasks]
